@@ -74,6 +74,7 @@ jobs:
           images: israelbuiatti/api-produto:${{github.run_number}}
           manifests: |
             k8s/api/deployment.yaml
+            k8s/api/service.yaml
           
                 
       
